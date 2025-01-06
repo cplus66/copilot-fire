@@ -3,6 +3,12 @@ Use the copilot to analysis economy, stock and bond data.
 
 ## Taiwan Stock
 
+### Required Python Library
+
+```
+pip install twstock
+```
+
 ### Prompt
 
 * Show current taiwan stock market prices.
@@ -10,7 +16,15 @@ Use the copilot to analysis economy, stock and bond data.
 * The code shows error message "AttributeError: 'Stock' object has no attribute 'name'".
 
 
-## US Bond 
+## U.S. Bond 
+
+### Required Python Library
+
+```
+pip install pandas
+pip install matplotlib
+pip install pandas_datareader
+```
 
 ### Prompt
 
