@@ -37,3 +37,7 @@ pip install pandas_datareader
 * Could you use matplotlib to generate the chart for US 10-year treasury bonds?
 * Could you also add bond price in the same chart?
 * Sorry, it shows the following error message ValueError: All arrays must be of the same length.
+
+### Year 2000 - 2025 U.S. Bond Picture 
+
+![US 10 year price and yield](../../blob/master/us-bond/pictures/us-10_price_yield.png)
