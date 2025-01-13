@@ -31,6 +31,10 @@ Use the copilot to analysis economy, stock and bond data.
 
 ![US 10 year price and yield](../../blob/master/us-bond/pictures/us-10_price_yield.png)
 
+### Year 2015 - 2024 U.S. Bond Yield and Exchange Rate to NTD (New Taiwan Dollars)
+
+![US 10 year yield and exchange rate Taiwan ](../../blob/master/us-bond/pictures/us-bond-exchange-ntd.png)
+
 ## Taiwan Stock
 
 ### Required Python Library
