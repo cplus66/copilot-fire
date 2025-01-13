@@ -1,6 +1,22 @@
 # copilot-fire
 Use the copilot to analysis economy, stock and bond data. 
 
+## World Top 5 Revenue
+
+![World Top 5 Revenue](../../blob/master/world-revenue/pictures/world-revenue.png)
+
+## World Top 5 Debt
+
+![World Top 5 Revenue](../../blob/master/world-debt/pictures/world-debt.png)
+
+## U.S. Accounting
+
+![U.S. Accounting](../../blob/master/us-account/pictures/us-account.png)
+
+## U.S. Debt
+
+![U.S. Debt](../../blob/master/us-debt/pictures/us-debt.png)
+
 ## Taiwan Stock
 
 ### Required Python Library
@@ -41,3 +57,5 @@ pip install pandas_datareader
 ### Year 2000 - 2025 U.S. Bond Picture 
 
 ![US 10 year price and yield](../../blob/master/us-bond/pictures/us-10_price_yield.png)
+
+
