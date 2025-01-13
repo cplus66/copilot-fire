@@ -19,7 +19,7 @@ revenue = list(us_revenue.values())
 
 # Plotting the data
 plt.figure(figsize=(10, 6))
-plt.plot(years, revenue, marker='o', label='U.S. Government Revenue')
+plt.plot(years, revenue, marker='o', color='orange', label='U.S. Government Revenue')
 
 # Adding titles and labels
 plt.title('Historical U.S. Government Revenue')
