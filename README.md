@@ -13,6 +13,10 @@ Use the copilot to analysis economy, stock and bond data.
 
 ![U.S. Accounting](../../blob/master/us-account/pictures/us-account.png)
 
+## U.S. Revenue
+
+![U.S. Revenue](../../blob/master/us-revenue/pictures/us-revenue.png)
+
 ## U.S. Debt
 
 ![U.S. Debt](../../blob/master/us-debt/pictures/us-debt.png)
