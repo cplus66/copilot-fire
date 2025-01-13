@@ -12,9 +12,9 @@ fig, ax1 = plt.subplots()
 
 # Plotting U.S. 10-year bond yield rate
 ax1.set_xlabel('Year')
-ax1.set_ylabel('U.S. 10-year Bond Yield (%)', color='tab:blue')
-ax1.plot(dates, bond_yields, color='tab:blue', label='U.S. 10-year Bond Yield')
-ax1.tick_params(axis='y', labelcolor='tab:blue')
+ax1.set_ylabel('U.S. 10-year Bond Yield (%)', color='tab:red')
+ax1.plot(dates, bond_yields, color='tab:red', label='U.S. 10-year Bond Yield')
+ax1.tick_params(axis='y', labelcolor='tab:red')
 
 # Creating a second y-axis for the exchange rate
 ax2 = ax1.twinx()
