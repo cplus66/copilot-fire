@@ -72,4 +72,19 @@ pip install pandas_datareader
 * Could you also add bond price in the same chart?
 * Sorry, it shows the following error message ValueError: All arrays must be of the same length.
 
+## Analysis
+
+### Bond Yields
+
+- Interest Rates: When central banks, like the Federal Reserve, adjust interest rates, bond yields often follow. Higher interest rates typically lead to higher bond yields as new bonds are issued at these higher rates.
+- Inflation: Rising inflation erodes the purchasing power of future bond payments, leading investors to demand higher yields to compensate for this risk.
+- Economic Growth: Strong economic growth can lead to higher bond yields as investors expect higher inflation and interest rates in the future.
+- Investor Sentiment: When investors are optimistic about the economy, they may sell bonds in favor of riskier assets, driving bond prices down and yields up. Conversely, during economic uncertainty, investors may flock to bonds, pushing prices up and yields down.
+
+### Exchange Rates
+
+- Interest Rate Differentials: Differences in interest rates between countries can drive exchange rates. Higher interest rates in the U.S. can attract foreign capital, increasing demand for the USD and raising its value relative to other currencies.
+- Economic Indicators: Indicators such as GDP growth, employment rates, and trade balances can influence exchange rates. Strong economic performance in the U.S. can boost the USD against other currencies.
+- Political Stability: Political events and stability can impact investor confidence. Political uncertainty can lead to currency depreciation as investors seek safer assets.
+- Market Sentiment: Investor perceptions and speculative activities can also drive exchange rates. Positive sentiment towards the U.S. economy can strengthen the USD, while negative sentiment can weaken it.
 
