@@ -79,7 +79,7 @@ pip install pandas_datareader
 - Interest Rates: When central banks, like the Federal Reserve, adjust interest rates, bond yields often follow. Higher interest rates typically lead to higher bond yields as new bonds are issued at these higher rates.
 - Inflation: Rising inflation erodes the purchasing power of future bond payments, leading investors to demand higher yields to compensate for this risk.
 - Economic Growth: Strong economic growth can lead to higher bond yields as investors expect higher inflation and interest rates in the future.
-- Investor Sentiment: When investors are optimistic about the economy, they may sell bonds in favor of riskier assets, driving bond prices down and yields up. Conversely, during economic uncertainty, investors may flock to bonds, pushing prices up and yields down.
+- Investor Sentiment: When investors are optimistic about the economy, they may sell bonds in favor of riskier assets, driving bond prices down and yields up. Conversely, during economic uncertainty, investors may flock to bonds, pushing prices up and yields down. (投資人情緒：當投資人對經濟感到樂觀時，他們可能會拋售債券，轉而購買風險較高的資產，導致債券價格下跌、殖利率上升。相反，在經濟不確定時期，投資者可能會湧向債券，導致價格上漲而殖利率下降)
 
 ### Exchange Rates
 
