@@ -49,6 +49,10 @@ Use the copilot to analysis economy, stock and bond data.
 ![USD to EUR Exchange Rate Monthly](../../blob/master/us-dollar-index/pictures/exchange-rate-usd-to-eur-monthly.png)
 ![USD to EUR Exchange Rate Yearly](../../blob/master/us-dollar-index/pictures/exchange-rate-usd-to-eur-yearly.png)
 
+### U.S. USD to NTD Exchange Rate
+
+![USD to EUR Exchange Rate Yearly](../../blob/master/us-dollar-index/pictures/exchange-rate-usd-to-ntd-yearly.png)
+
 ## Taiwan Stock
 
 ### Required Python Library
