@@ -39,6 +39,10 @@ Use the copilot to analysis economy, stock and bond data.
 
 ![US Inflation Rate Monthly](../../blob/master/us-inflation/pictures/us-inflation-rate-monthly.png)
 
+### U.S. CPI(Consumer Price Index) Monthly
+
+![US CPI Monthly](../../blob/master/us-inflation/pictures/us-cpi.png)
+
 ## Taiwan Stock
 
 ### Required Python Library
