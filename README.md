@@ -27,6 +27,8 @@ Use the copilot to analysis economy, stock and bond data.
 
 ![U.S. Debt and 10-year Bond Yeild Rate](../../blob/master/us-debt/pictures/us-debt-10-year-bond.png)
 
+![U.S. Debt and 10-year Bond Yeild Rate FRED](../../blob/master/us-bond/pictures/us-bond-10-year-yield.png)
+
 ### Year 2000 - 2025 U.S. Bond Price and Yield Rate
 
 ![US 10 year price and yield](../../blob/master/us-bond/pictures/us-10_price_yield.png)
