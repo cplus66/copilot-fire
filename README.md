@@ -43,6 +43,10 @@ Use the copilot to analysis economy, stock and bond data.
 
 ![US CPI Monthly](../../blob/master/us-inflation/pictures/us-cpi-monthly.png)
 
+### U.S. USD to EUR Exchange Rate
+
+![USD to EUR Exchange Rate](../../blob/master/us-dollar-index/pictures/exchange-rate-usd-to-eur.png)
+
 ## Taiwan Stock
 
 ### Required Python Library
@@ -79,6 +83,22 @@ pip install pandas_datareader
 * Could you use matplotlib to generate the chart for US 10-year treasury bonds?
 * Could you also add bond price in the same chart?
 * Sorry, it shows the following error message ValueError: All arrays must be of the same length.
+
+## U.S. Inflation Rate and CPI
+
+### Required Python Library
+
+```
+pip install fredapi
+```
+
+## U.S. Dollars Index
+
+### Required Python Library
+
+```
+pip install alpha_vantage
+```
 
 ## Analysis
 
