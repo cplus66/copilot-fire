@@ -41,7 +41,7 @@ Use the copilot to analysis economy, stock and bond data.
 
 ### U.S. CPI(Consumer Price Index) Monthly
 
-![US CPI Monthly](../../blob/master/us-inflation/pictures/us-cpi.png)
+![US CPI Monthly](../../blob/master/us-inflation/pictures/us-cpi-monthly.png)
 
 ## Taiwan Stock
 
