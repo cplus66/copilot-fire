@@ -33,7 +33,11 @@ Use the copilot to analysis economy, stock and bond data.
 
 ### Year 2015 - 2024 U.S. Bond Yield and Exchange Rate to NTD (New Taiwan Dollars)
 
-![US 10 year yield and exchange rate Taiwan ](../../blob/master/us-bond/pictures/us-bond-exchange-ntd.png)
+![US 10 year yield and exchange rate Taiwan](../../blob/master/us-bond/pictures/us-bond-exchange-ntd.png)
+
+### U.S. Inflation Rate Monthly
+
+![US Inflation Rate Monthly](../../blob/master/us-inflation/pictures/us-inflation-rate-monthly.png)
 
 ## Taiwan Stock
 
