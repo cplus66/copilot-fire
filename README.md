@@ -27,7 +27,7 @@ Use the copilot to analysis economy, stock and bond data.
 
 ![U.S. Debt and 10-year Bond Yeild Rate](../../blob/master/us-debt/pictures/us-debt-10-year-bond.png)
 
-### Year 2000 - 2025 U.S. Bond Picture
+### Year 2000 - 2025 U.S. Bond Price and Yield Rate
 
 ![US 10 year price and yield](../../blob/master/us-bond/pictures/us-10_price_yield.png)
 
@@ -50,6 +50,10 @@ Use the copilot to analysis economy, stock and bond data.
 ### U.S. USD to NTD Exchange Rate
 
 ![USD to NTD Exchange Rate Quarterly](../../blob/master/us-dollar-index/pictures/exchange-rate-usd-to-ntd-quarterly.png)
+
+### U.S. Interest Rate
+
+![U.S. Interest Rate](../../blob/master/us-interest/pictures/us-interest-rate.png)
 
 ## Taiwan Stock
 
