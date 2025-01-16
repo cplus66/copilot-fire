@@ -45,7 +45,7 @@ Use the copilot to analysis economy, stock and bond data.
 
 ### U.S. USD to EUR Exchange Rate
 
-![USD to EUR Exchange Rate Quarterly](../../blob/master/us-dollar-index/pictures/exchange-rate-usd-to-eur-quarter.png)
+![USD to EUR Exchange Rate Quarterly](../../blob/master/us-dollar-index/pictures/exchange-rate-usd-to-eur-quarterly.png)
 
 ### U.S. USD to NTD Exchange Rate
 
