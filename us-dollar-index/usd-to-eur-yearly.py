@@ -21,14 +21,17 @@ fx = ForeignExchange(key=api_key)
 
 # Retrieve the U.S. Dollar Index (DXY) data
 # Note: Alpha Vantage does not provide DXY directly, but you can get data for USD and other currencies
-# Here we are assuming a common proxy by using USD/EUR
+# Here we are using USD/EUR as a proxy
 data, _ = fx.get_currency_exchange_monthly(from_symbol='USD', to_symbol='EUR')
 
 # Convert to DataFrame for better visualization
 df = pd.DataFrame.from_dict(data, orient='index').astype(float)
 
-# Resample the data to yearly frequency, taking the last value of each year
-df_yearly = df.resample('Y').last()
+# Convert index to datetime
+df.index = pd.to_datetime(df.index)
+
+# Resample the data to yearly frequency using 'YE' (year-end), taking the last value of each year
+df_yearly = df.resample('YE').last()
 
 # Display the first few rows of the DataFrame
 print(df_yearly.head())
