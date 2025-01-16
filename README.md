@@ -11,7 +11,7 @@ Use the copilot to analysis economy, stock and bond data.
 
 ![World Top 5 Revenue](../../blob/master/world-debt/pictures/world-debt.png)
 
-### U.S. Accounting
+### U.S. Debt and Revenue
 
 ![U.S. Accounting](../../blob/master/us-account/pictures/us-account.png)
 
@@ -27,6 +27,8 @@ Use the copilot to analysis economy, stock and bond data.
 
 ![U.S. Debt and 10-year Bond Yield Rate](../../blob/master/us-debt/pictures/us-debt-10-year-bond.png)
 
+### U.S. 10-Year Bond Yield Rate
+
 ![U.S. Debt and 10-year Bond Yield Rate FRED](../../blob/master/us-bond/pictures/us-bond-10-year-yield.png)
 
 ### Year 2000 - 2025 U.S. Bond Price and Yield Rate
@@ -35,23 +37,21 @@ Use the copilot to analysis economy, stock and bond data.
 
 ### Year 2015 - 2024 U.S. Bond Yield and Exchange Rate to NTD (New Taiwan Dollars)
 
-![US 10 year yield and exchange rate Taiwan](../../blob/master/us-bond/pictures/us-bond-exchange-ntd.png)
-
 ![US 10 year yield and exchange rate Taiwan 2005-2025](../../blob/master/us-bond/pictures/us-bond-ntd-exchange-2005-2025.png)
 
-### U.S. Inflation Rate Monthly
+### U.S. Inflation Rate
 
 ![US Inflation Rate Monthly](../../blob/master/us-inflation/pictures/us-inflation-rate-monthly.png)
 
-### U.S. CPI(Consumer Price Index) Monthly
+### U.S. CPI(Consumer Price Index)
 
 ![US CPI Monthly](../../blob/master/us-inflation/pictures/us-cpi-monthly.png)
 
-### U.S. USD to EUR Exchange Rate
+### USD to EUR Exchange Rate
 
 ![USD to EUR Exchange Rate Quarterly](../../blob/master/us-dollar-index/pictures/exchange-rate-usd-to-eur-quarterly.png)
 
-### U.S. USD to NTD Exchange Rate
+### USD to NTD Exchange Rate
 
 ![USD to NTD Exchange Rate Quarterly](../../blob/master/us-dollar-index/pictures/exchange-rate-usd-to-ntd-quarterly.png)
 
