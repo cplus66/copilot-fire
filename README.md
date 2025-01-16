@@ -45,13 +45,11 @@ Use the copilot to analysis economy, stock and bond data.
 
 ### U.S. USD to EUR Exchange Rate
 
-![USD to EUR Exchange Rate](../../blob/master/us-dollar-index/pictures/exchange-rate-usd-to-eur.png)
-![USD to EUR Exchange Rate Monthly](../../blob/master/us-dollar-index/pictures/exchange-rate-usd-to-eur-monthly.png)
-![USD to EUR Exchange Rate Yearly](../../blob/master/us-dollar-index/pictures/exchange-rate-usd-to-eur-yearly.png)
+![USD to EUR Exchange Rate Quarterly](../../blob/master/us-dollar-index/pictures/exchange-rate-usd-to-eur-quarter.png)
 
 ### U.S. USD to NTD Exchange Rate
 
-![USD to EUR Exchange Rate Yearly](../../blob/master/us-dollar-index/pictures/exchange-rate-usd-to-ntd-yearly.png)
+![USD to NTD Exchange Rate Quarterly](../../blob/master/us-dollar-index/pictures/exchange-rate-usd-to-ntd-quarterly.png)
 
 ## Taiwan Stock
 
