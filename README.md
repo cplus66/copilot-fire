@@ -37,6 +37,8 @@ Use the copilot to analysis economy, stock and bond data.
 
 ![US 10 year yield and exchange rate Taiwan](../../blob/master/us-bond/pictures/us-bond-exchange-ntd.png)
 
+![US 10 year yield and exchange rate Taiwan 2005-2025](../../blob/master/us-bond/pictures/us-bond-ntd-exchange-2005-2025.png)
+
 ### U.S. Inflation Rate Monthly
 
 ![US Inflation Rate Monthly](../../blob/master/us-inflation/pictures/us-inflation-rate-monthly.png)
