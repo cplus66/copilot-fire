@@ -13,15 +13,7 @@ Use the copilot to analysis economy, stock and bond data.
 
 ### U.S. Debt and Revenue
 
-![U.S. Accounting](../../blob/master/us-account/pictures/us-account.png)
-
-### U.S. Debt
-
-![U.S. Debt](../../blob/master/us-debt/pictures/us-debt.png)
-
-### U.S. Revenue
-
-![U.S. Revenue](../../blob/master/us-revenue/pictures/us-revenue.png)
+![U.S. Debt and Revenue](../../blob/master/us-account/pictures/us-account.png)
 
 ### U.S. Debt and 10-year Bond Yield Rate
 
@@ -35,9 +27,17 @@ Use the copilot to analysis economy, stock and bond data.
 
 ![US 10 year price and yield](../../blob/master/us-bond/pictures/us-10_price_yield.png)
 
+### U.S. 10-Year Bond Yield Rate and Interest Rate
+
+![U.S. 10-Year Bound Yield and Interest Rate](../../blob/master/us-bond/pictures/us-bond-interest.png)
+
 ### Year 2015 - 2024 U.S. Bond Yield and Exchange Rate to NTD (New Taiwan Dollars)
 
 ![US 10 year yield and exchange rate Taiwan 2005-2025](../../blob/master/us-bond/pictures/us-bond-ntd-exchange-2005-2025.png)
+
+### U.S. Interest Rate
+
+![U.S. Interest Rate](../../blob/master/us-interest/pictures/us-interest-rate.png)
 
 ### U.S. Inflation Rate
 
@@ -54,15 +54,6 @@ Use the copilot to analysis economy, stock and bond data.
 ### USD to NTD Exchange Rate
 
 ![USD to NTD Exchange Rate Quarterly](../../blob/master/us-dollar-index/pictures/exchange-rate-usd-to-ntd-quarterly.png)
-
-### U.S. Interest Rate
-
-![U.S. Interest Rate](../../blob/master/us-interest/pictures/us-interest-rate.png)
-
-
-### U.S. 10-Year Bond Yield Rate and Interest Rate
-
-![U.S. 10-Year Bound Yield and Interest Rate](../../blob/master/us-bond/pictures/us-bond-interest.png)
 
 ## Taiwan Stock
 
