@@ -39,6 +39,11 @@ Bond Yield Rate > Interest Rate
 
 ![US 10 year yield and exchange rate Taiwan 2005-2025](../../blob/master/us-bond/pictures/us-bond-ntd-exchange-2005-2025.png)
 
+```
+USD to NTD < 28, Buy
+Bond Yield Rate > 4%, Buy
+```
+
 ### U.S. Interest Rate
 
 ![U.S. Interest Rate](../../blob/master/us-interest/pictures/us-interest-rate.png)
