@@ -31,6 +31,10 @@ Use the copilot to analysis economy, stock and bond data.
 
 ![U.S. 10-Year Bound Yield and Interest Rate](../../blob/master/us-bond/pictures/us-bond-interest.png)
 
+```
+Bond Yield Rate > Interest Rate
+```
+
 ### Year 2015 - 2024 U.S. Bond Yield and Exchange Rate to NTD (New Taiwan Dollars)
 
 ![US 10 year yield and exchange rate Taiwan 2005-2025](../../blob/master/us-bond/pictures/us-bond-ntd-exchange-2005-2025.png)
