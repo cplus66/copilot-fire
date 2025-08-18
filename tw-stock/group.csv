@@ -1,32 +1,33 @@
+gid,gcname,gname
 01,水泥工業類,Cement
 02,食品工業類,Foods
 03,塑膠工業類,Plastics
 04,紡織纖維類,Textiles
-05,電機機械類,Electric,Machinery
-06,電器電纜類,Electrical,and,Cable
-08,玻璃陶瓷類,Glass,and,Ceramics
-09,造紙工業類,Paper,and,Pulp
-10,鋼鐵工業類,Iron,and,Steel
+05,電機機械類,Electric Machinery
+06,電器電纜類,Electrical and Cable
+08,玻璃陶瓷類,Glass and Ceramics
+09,造紙工業類,Paper and Pulp
+10,鋼鐵工業類,Iron and Steel
 11,橡膠工業類,Rubber
 12,汽車工業類,Automobile
-14,建材營造類,Building,Material,and,Construction
-15,航運業類,Shipping,and,Transportation
-16,觀光餐旅類,Tourism,and,Hospitality
-17,金融保險類,Finance,and,Insurance
-18,貿易百貨類,Trading,and,Consumers',Goods
+14,建材營造類,Building Material and Construction
+15,航運業類,Shipping and Transportation
+16,觀光餐旅類,Tourism and Hospitality
+17,金融保險類,Finance and Insurance
+18,貿易百貨類,Trading and Consumers' Goods
 21,化學工業類,Chemical
-22,生技醫療類,Biotechnology,&,Medical,Care
-23,油電燃氣類,Oil,,Gas,and,Electricity
+22,生技醫療類,Biotechnology & Medical Care
+23,油電燃氣類,Oil Gas and Electricity
 24,半導體業類,Semiconductor
-25,電腦及週邊設備業類,Computer,and,Peripheral,Equipment
+25,電腦及週邊設備業類,Computer and Peripheral Equipment
 26,光電業類,Optoelectronic
-27,通信網路業類,Communications,and,Internet
-28,電子零組件業類,Electronic,Parts,&,Components
-29,電子通路業類,Electronic,Products,Distribution
-30,資訊服務業類,Information,Service
-31,其他電子業類,Other,Electronic
-35,綠能環保類,Green,Energy,and,Environmental,Services
-36,數位雲端類,Digital,and,Cloud,Services
-37,運動休閒類,Sports,and,Leisure
+27,通信網路業類,Communications and Internet
+28,電子零組件業類,Electronic Parts & Components
+29,電子通路業類,Electronic Products Distribution
+30,資訊服務業類,Information Service
+31,其他電子業類,Other Electronic
+35,綠能環保類,Green Energy and Environmental Services
+36,數位雲端類,Digital and Cloud Services
+37,運動休閒類,Sports and Leisure
 38,居家生活類,Household
 20,其他類,Others
