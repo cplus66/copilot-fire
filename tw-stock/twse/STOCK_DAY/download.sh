@@ -2,12 +2,12 @@
 DELAY=10
 
 SLIST="1233 1303 1473 1477 2103 2395 2912 6128 6184 8046"
-SLIST="2330"
+SLIST="1101"
 
 start_year=2015
 start_month=1
 end_year=2025
-end_month=8
+end_month=7
 
 year=$start_year
 month=$start_month
@@ -18,9 +18,16 @@ for SID in $SLIST; do
     m=$(printf %02d $month)
 
     mkdir -p $SID/$y
-    curl https://www.twse.com.tw/rwd/en/afterTrading/STOCK_DAY?date=${y}${m}01\&stockNo=${SID}\&response=csv \
-	      -o $SID/$y/STOCK_DAY_${SID}_${y}${m}.csv
-    sleep $DELAY
+    while true; do
+       file="$SID/$y/STOCK_DAY_${SID}_${y}${m}.csv"
+       curl https://www.twse.com.tw/rwd/en/afterTrading/STOCK_DAY?date=${y}${m}01\&stockNo=${SID}\&response=csv \
+	      -o $file
+       sleep $DELAY
+       size=$(wc -c < $file)
+       if [ "$size" -gt 500 ]; then
+         break
+       fi
+    done
 
     month=$((month + 1))
     if [ $month -gt 12 ]; then

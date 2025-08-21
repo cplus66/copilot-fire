@@ -97,12 +97,14 @@ ec2_terminate() {
 
 ec2_connect() {
   if [ x$1 == "x" ]; then
-    ITEM=0
+    ID=0
+  else
+    ID=$1
   fi
 
   LIST=($(ec2_ip))
   if [ x$LIST != "x" ]; then
-    PUBLIC_IP=${LIST[$1]} _ec2_connect
+    PUBLIC_IP=${LIST[$ID]} _ec2_connect
   else
     echo "No availabe instance"
   fi
