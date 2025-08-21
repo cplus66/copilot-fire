@@ -1,26 +1,8 @@
 #!/bin/bash
-DELAY=10
-PREFIX="https://www.twse.com.tw/rwd/en/afterTrading/BFIAMU?date="
-PREFIX=" https://www.twse.com.tw/rwd/en/afterTrading/BWIBBU_d?date="
-
-download_csv() {
-  url=$1
-  file=$2
-
-  while true; do
-    curl $url -o $file
-    sleep $DELAY
-
-    if [ -f $file ]; then
-      size=$(wc -c < $file)
-      if [ "$size" -gt 500 ]; then
-        break
-      fi
-    fi
-  done
-}
+source ../lib.sh
 
 LIST=$(cat ../index_date.csv)
+PREFIX="https://www.twse.com.tw/rwd/en/afterTrading/BWIBBU_d?date="
 
 for i in $LIST; do
   url="${PREFIX}${i}&selectType=ALL&response=csv"
