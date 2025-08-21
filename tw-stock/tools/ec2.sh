@@ -63,7 +63,7 @@ _ec2_upload() {
 
 
 # 6. TERMINATE INSTANCE
-ec2_terminate() {
+_ec2_terminate() {
   echo "Terminating instance..."
   aws ec2 terminate-instances --instance-ids $INSTANCE_ID --region $REGION
 
@@ -87,12 +87,11 @@ ec2_id() {
     --output text
 }
 
-ec2_terminate_all() {
-  LIST="$ec2_id"
+ec2_terminate() {
+  LIST="$(ec2_id)"
 
   for i in $LIST; do
-    export INSTANCE_ID=$i
-    ec2_terminate
+    INSTANCE_ID=$i _ec2_terminate
   done
 }
 
@@ -103,8 +102,7 @@ ec2_connect() {
 
   LIST=($(ec2_ip))
   if [ x$LIST != "x" ]; then
-    export PUBLIC_IP=${LIST[$1]}
-    _ec2_connect
+    PUBLIC_IP=${LIST[$1]} _ec2_connect
   else
     echo "No availabe instance"
   fi
@@ -114,8 +112,7 @@ ec2_run() {
   CMD="$*"
   LIST="$(ec2_ip)"
   for i in $LIST; do
-    export PUBLIC_IP=$i
-    _ec2_run "$CMD"
+    PUBLIC_IP=$i _ec2_run "$CMD"
   done
 }
 
@@ -124,12 +121,18 @@ ec2_upload() {
 
   LIST="$(ec2_ip)"
   for i in $LIST; do
-    export PUBLIC_IP=$i
-    _ec2_upload "$FILES"
+    PUBLIC_IP=$i _ec2_upload "$FILES"
   done
 }
 
+ec2_setup() {
+  ec2_upload ~/.aws
+  ec2_upload awscli_install.sh
+  ec2_run ./awscli_install.sh
+  ec2_run rm -rf ~/awscli_install.sh
+}
+
 ec2_cleanup() {
-  rm -rf ~/upload
+  ec2_run rm -rf ~/awscli_install.sh
 }
 
