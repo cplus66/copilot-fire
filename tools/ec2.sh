@@ -128,6 +128,9 @@ ec2_upload() {
 }
 
 ec2_setup() {
+  # Ubuntu packages
+  ec2_run apt install -y jq
+
   ec2_upload ~/.aws
   ec2_upload awscli_install.sh
   ec2_run ./awscli_install.sh

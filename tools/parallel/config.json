@@ -1,0 +1,11 @@
+{
+  "INSTANCES": [
+    "jetpack-0",
+    "jetpack-1",
+    "jetpack-2"
+  ],
+  "CODE_FILE": "process.sh",
+  "DATA": "data_all.csv",
+  "DATA_DIR": "./data",
+  "CREDENTIAL": "~/.ssh/id_rsa_gw"
+}
