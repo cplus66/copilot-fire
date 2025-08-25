@@ -8,14 +8,14 @@
 ```
 {
   "INSTANCES": [
-    "jetpack-0",
-    "jetpack-1",
-    "jetpack-2"
+    "ubuntu@ec2-0",
+    "ubuntu@ec2-1",
+    "ubuntu@ec2-2"
   ],
   "CODE_FILE": "process.sh",
   "DATA": "data_all.csv",
   "DATA_DIR": "./data",
-  "CREDENTIAL": "~/.ssh/id_rsa_gw"
+  "CREDENTIAL": "~/.ssh/id_rsa_aws_ec2"
 }
 ```
 
@@ -23,12 +23,13 @@
 
 ```
 Usage: ./manage_instances.sh [add|remove|remove-all|list|load-file] [argument]
-Example: 
-  Load instances(ip.txt) into config.json
-  ./manage_instances.sh load-file ip.txt
 
-  List all instances
-  ./manage_instances.sh list
+Example: 
+Load instances(ip.txt) into config.json
+$ ./manage_instances.sh load-file ip.txt
+
+List all instances
+$ ./manage_instances.sh list
 
 ```
 

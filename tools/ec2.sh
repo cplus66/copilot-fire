@@ -9,7 +9,7 @@ REGION="us-east-1"
 UBUNTU_AMI="ami-020cba7c55df1f615"  # Ubuntu 24.04 LTS
 
 # 1. CREATE INSTANCE
-ec2_create() {
+_ec2_create() {
   echo "Creating EC2 instance..."
   INSTANCE_ID=$(aws ec2 run-instances \
     --image-id $UBUNTU_AMI \
@@ -39,8 +39,20 @@ ec2_create() {
   export PUBLIC_IP
 
   # 4. WAIT FOR SSH TO BE READY
-  echo "Waiting for SSH to be ready..."
-  sleep 60
+  #echo "Waiting for SSH to be ready..."
+  #sleep 60
+}
+
+ec2_create() {
+  COUNT=$1
+
+  if [ "x$COUNT" == "x" ]; then
+    COUNT=1
+  fi
+
+  for ((i=0; i<$COUNT; i++)); do
+    _ec2_create
+  done
 }
 
 # 5. SSH AND RUN COMMAND
