@@ -18,7 +18,8 @@ List all EC2 instances
 $ ec2_id
 
 List all EC2 IPs 
-$ ec2_ip
+$ ec2_ip 
+$ ec2_ip > parallel/ip.txt
 
 Connect EC2 instance (id: 0..n-1)
 $ ec2_connect <id>

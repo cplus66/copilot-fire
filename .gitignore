@@ -1,2 +1,7 @@
 .ipynb_checkpoints
 tw-stock/twse/B*/*.csv
+
+tools/parallel/data_all.txt
+tools/parallel/ip.txt
+tools/parallel/data/chunk*
+

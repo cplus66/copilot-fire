@@ -1,11 +1,10 @@
 {
   "INSTANCES": [
-    "jetpack-0",
-    "jetpack-1",
-    "jetpack-2"
+    "3.82.227.181",
+    "54.174.77.73"
   ],
   "CODE_FILE": "process.sh",
-  "DATA": "data_all.csv",
+  "DATA": "data_all.txt",
   "DATA_DIR": "./data",
-  "CREDENTIAL": "~/.ssh/id_rsa_gw"
+  "CREDENTIAL": "~/.ssh/aws_ec2-2015-1005.pem"
 }

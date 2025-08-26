@@ -33,3 +33,12 @@ download() {
   done
   return 1
 }
+
+# Logger function with timestamp and hostname
+log() {
+  local timestamp
+  timestamp=$(date '+%Y-%m-%d %H:%M:%S')
+  local hostname
+  hostname=$(hostname)
+  echo "[$timestamp][$hostname] $1"
+}

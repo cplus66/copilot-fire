@@ -1,6 +1,6 @@
 # Parallel Run Framework
 
-1. Split job into code (process.sh) and data(data_all.csv). The data as default parameter of code.
+1. Split job into code (process.sh) and data(data_all.txt). The data as default parameter of code.
 1. Config the config.json for multiple instances.
 1. Run "parallel.sh".
 
@@ -13,7 +13,7 @@
     "ubuntu@ec2-2"
   ],
   "CODE_FILE": "process.sh",
-  "DATA": "data_all.csv",
+  "DATA": "data_all.txt",
   "DATA_DIR": "./data",
   "CREDENTIAL": "~/.ssh/id_rsa_aws_ec2"
 }

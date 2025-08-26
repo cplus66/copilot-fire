@@ -142,7 +142,9 @@ ec2_upload() {
 
 ec2_setup() {
   # Ubuntu packages
-  ec2_run apt install -y jq
+  ec2_run sudo apt-get update
+  ec2_run sudo apt-get install -y jq
+  ec2_run sudo apt-get install -y tree
 
   # AWS CLI
   ec2_upload ~/.aws
