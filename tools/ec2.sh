@@ -7,6 +7,7 @@ SECURITY_GROUP_ID="sg-0a7772b28bc917374"
 INSTANCE_TYPE="t2.micro"
 REGION="us-east-1"
 UBUNTU_AMI="ami-020cba7c55df1f615"  # Ubuntu 24.04 LTS
+EC2_USER=ubuntu
 
 # 1. CREATE INSTANCE
 _ec2_create() {
@@ -58,19 +59,19 @@ ec2_create() {
 # 5. SSH AND RUN COMMAND
 _ec2_connect() {
   echo "Connecting to EC2 $PUBLIC_IP ..."
-  ssh -i $KEY_PATH -o StrictHostKeyChecking=no ubuntu@$PUBLIC_IP
+  ssh -i $KEY_PATH -o StrictHostKeyChecking=no ${EC2_USER}@$PUBLIC_IP
 }
 
 _ec2_run() {
   echo "Run '$1' on EC2 $PUBLIC_IP ..."
   CMD="$*"
-  ssh -i $KEY_PATH -o StrictHostKeyChecking=no ubuntu@$PUBLIC_IP "$CMD"
+  ssh -i $KEY_PATH -o StrictHostKeyChecking=no ${EC2_USER}@$PUBLIC_IP "$CMD"
 }
 
 _ec2_upload() {
   echo "upload '$*' on EC2 $PUBLIC_IP ..."
   FILES="$*"
-  scp -i $KEY_PATH -r "$FILES" ubuntu@$PUBLIC_IP:
+  scp -i $KEY_PATH -r "$FILES" ${EC2_USER}@$PUBLIC_IP:
 }
 
 
@@ -143,13 +144,19 @@ ec2_setup() {
   # Ubuntu packages
   ec2_run apt install -y jq
 
+  # AWS CLI
   ec2_upload ~/.aws
   ec2_upload awscli_install.sh
   ec2_run ./awscli_install.sh
-  ec2_run rm -rf ~/awscli_install.sh
+
+  # Bash library
+  ec2_upload .profile
+  ec2_upload lib
 }
 
 ec2_cleanup() {
   ec2_run rm -rf ~/awscli_install.sh
+  ec2_run rm -rf ~/lib
+  ec2_run rm -rf ~/.profile
 }
 

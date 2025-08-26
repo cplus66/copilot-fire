@@ -1,7 +1,7 @@
 # Tools for EC2 and Parallel
 
 ## Usage
-Source the ec2.sh
+Source the ec2 library
 
 ```
 $ source ./ec2.sh
@@ -20,7 +20,7 @@ $ ec2_id
 List all EC2 IPs 
 $ ec2_ip
 
-Connect EC2 instance (0..n-1)
+Connect EC2 instance (id: 0..n-1)
 $ ec2_connect <id>
 
 Upload files to all EC2 instances
@@ -34,7 +34,6 @@ $ ec2_run <cmds*>
 
 Clean up on all EC2 instances
 $ ec2_cleanup
-
 ```
 
 ## Configuration
