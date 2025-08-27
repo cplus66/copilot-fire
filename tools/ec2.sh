@@ -162,3 +162,7 @@ ec2_cleanup() {
   ec2_run rm -rf ~/.profile
 }
 
+ec2_progress() {
+  ec2_run "source ./lib/lib.sh; progress"
+}
+
