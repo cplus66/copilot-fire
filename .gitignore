@@ -1,5 +1,6 @@
 .ipynb_checkpoints
-tw-stock/twse/B*/*.csv
+tw-stock/twse/[A-Z]*/*.csv
+tw-stock/twse/[A-Z]*/*.tgz
 
 tools/parallel/data_all.txt
 tools/parallel/ip.txt

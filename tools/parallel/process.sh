@@ -1,5 +1,11 @@
 #!/bin/bash -x
 
+# Definition
+OUTPUT_FOLDER=output
+timestamp=$(date '+%Y-%m-%d-%H-%M')
+hostname=$(hostname)
+file=${hostname}_${timestamp}.tgz
+
 # include library
 source ~/lib/lib.sh
 
@@ -19,3 +25,8 @@ while IFS= read -r cmd || [[ -n "$cmd" ]]; do
   log "Sleeping for 10 seconds..."
   sleep 10
 done < "$COMMAND_FILE"
+
+# Upload file to S3
+cd $OUTPUT_FOLDER
+tar czvf $file *
+aws s3 cp $file s3://prjdoc/upload/

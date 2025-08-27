@@ -1,4 +1,6 @@
 #!/bin/bash -e
+# Include EC2 library
+source ../ec2.sh
 
 # Load config file
 CONFIG_FILE="config.json"
@@ -21,7 +23,7 @@ cleanup() {
 trap cleanup SIGINT
 
 # Split data into chunks
-split -n ${#INSTANCES[@]} -d "$DATA" "$DATA_DIR/$CHUNK_PREFIX"
+split -n l/${#INSTANCES[@]} -d "$DATA" "$DATA_DIR/$CHUNK_PREFIX"
 
 # Loop over instances and distribute data/code
 for i in "${!INSTANCES[@]}"; do
@@ -38,3 +40,5 @@ done
 # Wait for all background jobs to finish
 wait
 echo "All jobs completed."
+echo "Termiate EC2 instances."
+ec2_terminate
