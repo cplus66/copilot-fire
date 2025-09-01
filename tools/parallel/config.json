@@ -1,8 +1,5 @@
 {
-  "INSTANCES": [
-    "3.82.227.181",
-    "54.174.77.73"
-  ],
+  "INSTANCES": [],
   "CODE_FILE": "process.sh",
   "DATA": "data_all.txt",
   "DATA_DIR": "./data",

@@ -4,7 +4,7 @@
 OUTPUT_FOLDER=output
 timestamp=$(date '+%Y-%m-%d-%H-%M')
 hostname=$(hostname)
-file=${hostname}_${timestamp}.tgz
+upload_file=${hostname}_${timestamp}.tgz
 
 # include library
 source ~/lib/lib.sh
@@ -27,6 +27,5 @@ while IFS= read -r cmd || [[ -n "$cmd" ]]; do
 done < "$COMMAND_FILE"
 
 # Upload file to S3
-cd $OUTPUT_FOLDER
-tar czvf $file *
-aws s3 cp $file s3://prjdoc/upload/
+tar -C $OUTPUT_FOLDER -czvf $upload_file .
+aws s3 cp $upload_file s3://prjdoc/upload/

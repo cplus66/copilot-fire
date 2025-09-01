@@ -44,7 +44,7 @@ log() {
 }
 
 progress() {
- T=$(wc chunk* | awk '{print $1'})
- N=$(ls output/* | wc | awk '{print $1'})
- python3 -c "a=$N;b=$T;print(f'{a/b:.1%}')"
+  T=$(wc chunk* | awk '{print $1'})
+  N=$(ls output/* | wc | awk '{print $1'})
+  python3 -c "a=$N;b=$T;print(f'{a/b:.1%}')"
 }

@@ -34,11 +34,14 @@ for i in "${!INSTANCES[@]}"; do
     scp -i $CREDENTIAL "$CODE_FILE" "$CHUNK_FILE" "$INSTANCE:~/" > /dev/null
 
     # Run code remotely in background
-    ssh -i $CREDENTIAL "$INSTANCE" "bash ~/process.sh ~/$(basename $CHUNK_FILE)" &
+    ssh -i $CREDENTIAL "$INSTANCE" "bash ~/${CODE_FILE} ~/$(basename $CHUNK_FILE)" &
 done
 
 # Wait for all background jobs to finish
 wait
 echo "All jobs completed."
-echo "Termiate EC2 instances."
-ec2_terminate
+
+if [ "x${STOP}" == "x" ]; then
+  echo "Termiate EC2 instances."
+  ec2_terminate
+fi

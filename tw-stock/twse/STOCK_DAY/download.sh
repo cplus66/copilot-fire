@@ -1,4 +1,12 @@
 #!/bin/bash
+#
+# Resolve the path to the project root
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+
+# Load shared bash library
+source "$PROJECT_ROOT/lib/utils.sh"
+
 DELAY=10
 
 SLIST="1233 1303 1473 1477 2103 2395 2912 6128 6184 8046"

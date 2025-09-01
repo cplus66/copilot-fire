@@ -1,6 +1,6 @@
 # Source the library
-if [ -f ~/lib/init.sh ]; then
-    source ~/lib/init.sh
+if [ -f ~/lib/lib.sh ]; then
+    source ~/lib/lib.sh
 fi
 
 export TZ='Asia/Taipei'
