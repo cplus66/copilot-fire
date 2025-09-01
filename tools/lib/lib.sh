@@ -12,6 +12,10 @@ download() {
   DELAY=10
   RETRY=3
 
+  local url
+  local file
+  local dir
+
   url=$1
   file=$2
   dir=$(dirname $file)
@@ -37,13 +41,17 @@ download() {
 # Logger function with timestamp and hostname
 log() {
   local timestamp
-  timestamp=$(date '+%Y-%m-%d %H:%M:%S')
   local hostname
+
+  timestamp=$(date '+%Y-%m-%d %H:%M:%S')
   hostname=$(hostname)
   echo "[$timestamp][$hostname] $1"
 }
 
 progress() {
+  local T
+  local N
+
   T=$(wc chunk* | awk '{print $1'})
   N=$(ls output/* | wc | awk '{print $1'})
   python3 -c "a=$N;b=$T;print(f'{a/b:.1%}')"

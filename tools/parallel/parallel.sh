@@ -41,7 +41,7 @@ done
 wait
 echo "All jobs completed."
 
-if [ "x${STOP}" == "x" ]; then
+if [ -z ${STOP} ]; then
   echo "Termiate EC2 instances."
   ec2_terminate
 fi
