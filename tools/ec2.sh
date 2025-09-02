@@ -204,6 +204,7 @@ ec2_parallel_run() {
 ec2_parallel_upload() {
   FILES=$*
   instances=($(ec2_ip))
+  num_instances=${#instances[@]}
 
   parallel -j "$num_instances" scp -i $KEY_PATH -r "$FILES" ${EC2_USER}@{}: ::: "${instances[@]}"
 }
