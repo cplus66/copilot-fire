@@ -1,10 +1,10 @@
-= TWSE 台灣證券交易所
+# TWSE 台灣證券交易所
 
-== Reference
+## Reference
 https://www.twse.com.tw/en/trading/statistics/index04.html
 Operating Revenue of Domestic Listed Companies
 
-== 01,水泥工業類,Cement
+## 01,水泥工業類,Cement
 
 01,1101,台泥
 01,1102,亞泥
@@ -14,7 +14,7 @@ Operating Revenue of Domestic Listed Companies
 01,1109,信大
 01,1110,東泥
 
-== 02,食品工業類,Foods
+## 02,食品工業類,Foods
 
 02,1201,味全
 02,1203,味王
@@ -39,7 +39,7 @@ Operating Revenue of Domestic Listed Companies
 02,1737,臺鹽
 02,3054,立萬利
 
-== 03,塑膠工業類,Plastics
+## 03,塑膠工業類,Plastics
 
 03,1301,台塑
 03,1303,南亞
@@ -60,7 +60,7 @@ Operating Revenue of Domestic Listed Companies
 03,1326,台化
 03,4306,炎洲
 
-== 04,紡織纖維類,Textiles
+## 04,紡織纖維類,Textiles
 
 04,1402,遠東新
 04,1409,新纖
@@ -103,7 +103,7 @@ Operating Revenue of Domestic Listed Companies
 04,4438,廣越
 04,4440,宜新實業
 
-== 05,電機機械類,Electric,Machinery
+## 05,電機機械類,Electric,Machinery
 
 05,1503,士電
 05,1504,東元
@@ -148,7 +148,7 @@ Operating Revenue of Domestic Listed Companies
 05,8374,羅昇
 05,8996,高力
 
-== 06,電器電纜類,Electrical,and,Cable
+## 06,電器電纜類,Electrical,and,Cable
 
 06,1603,華電
 06,1604,聲寶
@@ -165,7 +165,7 @@ Operating Revenue of Domestic Listed Companies
 06,4930,燦星網
 06,5283,禾聯碩
 
-== 08,玻璃陶瓷類,Glass,and,Ceramics
+## 08,玻璃陶瓷類,Glass,and,Ceramics
 
 08,1802,台玻
 08,1806,冠軍
@@ -173,7 +173,7 @@ Operating Revenue of Domestic Listed Companies
 08,1810,和成
 08,1817,凱撒衛
 
-== 09,造紙工業類,Paper,and,Pulp
+## 09,造紙工業類,Paper,and,Pulp
 
 09,1903,士紙
 09,1904,正隆
@@ -183,7 +183,7 @@ Operating Revenue of Domestic Listed Companies
 09,1909,榮成
 09,6790,永豐實
 
-== 10,鋼鐵工業類,Iron,and,Steel
+## 10,鋼鐵工業類,Iron,and,Steel
 
 10,2002,中鋼
 10,2006,東和鋼鐵
@@ -216,7 +216,7 @@ Operating Revenue of Domestic Listed Companies
 10,5007,三星
 10,9958,世紀鋼
 
-== 11,橡膠工業類,Rubber
+## 11,橡膠工業類,Rubber
 
 11,2101,南港
 11,2102,泰豐
@@ -230,7 +230,7 @@ Operating Revenue of Domestic Listed Companies
 11,2114,鑫永銓
 11,6582,申豐
 
-== 12,汽車工業類,Automobile
+## 12,汽車工業類,Automobile
 
 12,1319,東陽
 12,1339,昭輝
@@ -264,7 +264,7 @@ Operating Revenue of Domestic Listed Companies
 12,6988,威力暘-創
 12,7732,金興精密
 
-== 14,建材營造類,Building,Material,and,Construction
+## 14,建材營造類,Building,Material,and,Construction
 
 14,1316,上曜
 14,1436,華友聯
@@ -320,7 +320,7 @@ Operating Revenue of Domestic Listed Companies
 14,9906,欣巴巴
 14,9946,三發地產
 
-== 15,航運業類,Shipping,and,Transportation
+## 15,航運業類,Shipping,and,Transportation
 
 15,2208,台船
 15,2603,長榮
@@ -349,7 +349,7 @@ Operating Revenue of Domestic Listed Companies
 15,6757,台灣虎航
 15,8367,建新國際
 
-== 16,觀光餐旅類,Tourism,and,Hospitality
+## 16,觀光餐旅類,Tourism,and,Hospitality
 
 16,2701,萬企
 16,2702,華園
@@ -369,7 +369,7 @@ Operating Revenue of Domestic Listed Companies
 16,8940,新天地
 16,9943,好樂迪
 
-== 17,金融保險類,Finance,and,Insurance
+## 17,金融保險類,Finance,and,Insurance
 
 17,2801,彰銀
 17,2809,京城銀
@@ -406,7 +406,7 @@ Operating Revenue of Domestic Listed Companies
 17,6005,群益證
 17,6024,群益期
 
-== 18,貿易百貨類,Trading,and,Consumers',Goods
+## 18,貿易百貨類,Trading,and,Consumers',Goods
 
 18,2601,益航
 18,2901,欣欣
@@ -422,7 +422,7 @@ Operating Revenue of Domestic Listed Companies
 18,2945,三商家購
 18,8443,阿瘦
 
-== 21,化學工業類,Chemical
+## 21,化學工業類,Chemical
 
 21,1708,東碱
 21,1709,和益
@@ -452,7 +452,7 @@ Operating Revenue of Domestic Listed Companies
 21,4766,南寶
 21,4770,上品
 
-== 22,生技醫療類,Biotechnology,&,Medical,Care
+## 22,生技醫療類,Biotechnology,&,Medical,Care
 
 22,1707,葡萄王
 22,1720,生達
@@ -498,7 +498,7 @@ Operating Revenue of Domestic Listed Companies
 22,6949,沛爾生醫-創
 22,6955,邦睿生技-創
 
-== 23,油電燃氣類,Oil,,Gas,and,Electricity
+## 23,油電燃氣類,Oil,,Gas,and,Electricity
 
 23,2616,山隆
 23,6505,台塑化
@@ -509,7 +509,7 @@ Operating Revenue of Domestic Listed Companies
 23,9931,欣高
 23,9937,全國
 
-== 24,半導體業類,Semiconductor
+## 24,半導體業類,Semiconductor
 
 24,2302,麗正
 24,2303,聯電
@@ -593,7 +593,7 @@ Operating Revenue of Domestic Listed Companies
 24,8261,富鼎
 24,8271,宇瞻
 
-== 25,電腦及週邊設備業類,Computer,and,Peripheral,Equipment
+## 25,電腦及週邊設備業類,Computer,and,Peripheral,Equipment
 
 25,2301,光寶科
 25,2305,全友
@@ -655,7 +655,7 @@ Operating Revenue of Domestic Listed Companies
 25,8210,勤誠
 25,9912,偉聯
 
-== 26,光電業類,Optoelectronic
+## 26,光電業類,Optoelectronic
 
 26,2323,中環
 26,2349,錸德
@@ -723,7 +723,7 @@ Operating Revenue of Domestic Listed Companies
 26,8105,凌巨
 26,8215,明基材
 
-== 27,通信網路業類,Communications,and,Internet
+## 27,通信網路業類,Communications,and,Internet
 
 27,2314,台揚
 27,2321,東訊
@@ -769,7 +769,7 @@ Operating Revenue of Domestic Listed Companies
 27,8045,達運光電
 27,8101,華冠
 
-== 28,電子零組件業類,Electronic,Parts,&,Components
+## 28,電子零組件業類,Electronic,Parts,&,Components
 
 28,1471,首利
 28,1582,信錦
@@ -865,7 +865,7 @@ Operating Revenue of Domestic Listed Companies
 28,8213,志超
 28,8249,菱光
 
-== 29,電子通路業類,Electronic,Products,Distribution
+## 29,電子通路業類,Electronic,Products,Distribution
 
 29,2347,聯強
 29,2414,精技
@@ -888,7 +888,7 @@ Operating Revenue of Domestic Listed Companies
 29,8072,陞泰
 29,8112,至上
 
-== 30,資訊服務業類,Information,Service
+## 30,資訊服務業類,Information,Service
 
 30,2427,三商電
 30,2453,凌群
@@ -902,7 +902,7 @@ Operating Revenue of Domestic Listed Companies
 30,6183,關貿
 30,6214,精誠
 
-== 31,其他電子業類,Other,Electronic
+## 31,其他電子業類,Other,Electronic
 
 31,2312,金寶
 31,2317,鴻海
@@ -945,7 +945,7 @@ Operating Revenue of Domestic Listed Companies
 31,8021,尖點
 31,8201,無敵
 
-== 35,綠能環保類,Green,Energy,and,Environmental,Services
+## 35,綠能環保類,Green,Energy,and,Environmental,Services
 
 35,3708,上緯投控
 35,5292,華懋
@@ -966,7 +966,7 @@ Operating Revenue of Domestic Listed Companies
 35,9930,中聯資源
 35,9955,佳龍
 
-== 36,數位雲端類,Digital,and,Cloud,Services
+## 36,數位雲端類,Digital,and,Cloud,Services
 
 36,3130,一零四
 36,6165,浪凡
@@ -977,7 +977,7 @@ Operating Revenue of Domestic Listed Companies
 36,8454,富邦媒
 36,8487,愛爾達-創
 
-== 37,運動休閒類,Sports,and,Leisure
+## 37,運動休閒類,Sports,and,Leisure
 
 37,1432,大魯閣
 37,1598,岱宇
@@ -992,7 +992,7 @@ Operating Revenue of Domestic Listed Companies
 37,9914,美利達
 37,9921,巨大
 
-== 38,居家生活類,Household
+## 38,居家生活類,Household
 
 38,2062,橋椿
 38,3557,嘉威
@@ -1003,7 +1003,7 @@ Operating Revenue of Domestic Listed Companies
 38,9934,成霖
 38,9935,慶豐富
 
-== 20,其他類,Others
+## 20,其他類,Others
 
 20,1342,八貫
 20,1416,廣豐
